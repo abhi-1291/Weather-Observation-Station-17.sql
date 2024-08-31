@@ -1,2 +1,15 @@
-# Weather-Observation-Station-17.sql
-Query the Western Longitude (LONG_W)where the smallest Northern Latitude (LAT_N) in STATION is greater than 38.7780. Round your answer to 4 decimal places.
+SELECT ROUND(LONG_W, 4)
+<br>
+FROM STATION
+<br>
+WHERE
+<br>
+LAT_N = (
+<br>
+<p></p> SELECT MIN(LAT_N)
+<br>
+<p></p>FROM STATION
+<br>
+<p></p>WHERE
+<br>
+<p></p>LAT_N > 38.7780);
