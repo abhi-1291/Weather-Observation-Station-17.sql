@@ -6,10 +6,10 @@ WHERE
 <br>
 LAT_N = (
 <br>
-<p></p> SELECT MIN(LAT_N)
+SELECT MIN(LAT_N)
 <br>
-<p></p>FROM STATION
+FROM STATION
 <br>
-<p></p>WHERE
+WHERE
 <br>
-<p></p>LAT_N > 38.7780);
+LAT_N > 38.7780);
